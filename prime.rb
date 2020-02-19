@@ -1,9 +1,6 @@
 def prime?(num)
   new_array = (-1..(num + 1)).to_a
   
-  if new_array.include?(2)
+  new_array.any?{|n| n 
     return true 
-  elsif new_array.include?(-1) 
-    false
-  end
 end
