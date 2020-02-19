@@ -3,7 +3,7 @@ def prime?(num)
   
   if new_array.include?(2)
     return true 
-  else 
+  elsif new_array.include?(-1) 
     false
   end
 end
