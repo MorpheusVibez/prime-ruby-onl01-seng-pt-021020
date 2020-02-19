@@ -1,5 +1,6 @@
 def prime?(num)
   if num <= 1 
     false
-  els
+  elsif num == 2 
+  true
 end
